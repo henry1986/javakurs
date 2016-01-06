@@ -6,6 +6,10 @@ public class Main {
 		MyArrayList myArrayList = new MyArrayList();
 		myArrayList.add("Hallo");
 		myArrayList.add("Welt");
+
+		MyNodeList<String> myNodeList = new MyNodeList<>();
+		myNodeList.add("Hallo");
+		myNodeList.add("Welt");
 	}
 
 }
